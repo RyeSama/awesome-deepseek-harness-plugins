@@ -6,7 +6,7 @@
   "category": "dev",
   "description": {
     "en": "Registers one agent tool, `plugin_guard`, that statically scans a plugin package before it is installed. It reports the verdict with reasons such as a missing or broken `dsh.bundle.patch`, an undeclared `dsh.permissions` block, install scripts, dangerous APIs or obfuscation, dependency risk and source-integrity changes. The scan only reads files; it never imports, installs, evaluates or runs the scanned code. Ships no client code.",
-    "zh": "娉ㄥ唽涓€涓?agent 宸ュ叿 `plugin_guard`锛屽湪鎻掍欢瀹夎鍓嶅仛闈欐€佹壂鎻忥細缁欏嚭鍒ゅ畾涓庡師鍥狅紝渚嬪缂哄皯鎴栨崯鍧忕殑 `dsh.bundle.patch`銆佹湭澹版槑 `dsh.permissions`銆佸畨瑁呰剼鏈€佸嵄闄?API 鎴栦唬鐮佹贩娣嗐€佷緷璧栭闄╀笌婧愮爜瀹屾暣鎬у彉鍖栥€傛壂鎻忓彧璇诲彇鏂囦欢锛屼笉浼氬鍏ャ€佸畨瑁呫€佹眰鍊兼垨杩愯琚壂鎻忕殑浠ｇ爜銆備笉闄勫甫瀹㈡埛绔晫闈唬鐮併€?
+    "zh": "注册一个 agent 工具 `plugin_guard`，在插件安装前做静态扫描：给出判定与原因，例如缺少或损坏的 `dsh.bundle.patch`、未声明 `dsh.permissions`、安装脚本、危险 API 或代码混淆、依赖风险与源码完整性变化。扫描只读取文件，不会导入、安装、求值或运行被扫描的代码。不附带客户端界面代码。"
   },
   "added": "2026-10-20"
 }
